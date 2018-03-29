@@ -20,7 +20,7 @@ class Window(QWidget):
         self.checkbox3 = QCheckBox("Symbols")
         self.length = QLineEdit("Length")
         self.button = QPushButton("New Password")
-        self.password = QLabel("")
+        self.password = QLineEdit("")
 
         v_box = QVBoxLayout() #Vertical Layout
         v_box.addWidget(self.checkbox0)
@@ -63,12 +63,13 @@ class Window(QWidget):
             elements.append(numbers)
         if checkbox3:
             elements.append(symbols)
+        digitCounter = 0;
         try:
-
-            for i in range(int(self.length.text())):
+            while(digitCounter < int(self.length.text())):
                 randomChoice = str(secrets.choice(secrets.choice(elements)))
                 if randomChoice not in password:
                     password+=randomChoice
+                    digitCounter+=1
             self.password.setText(password)
         except ValueError:
             self.password.setText("Please enter a length.")
