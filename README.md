@@ -2,7 +2,7 @@
 A basic project with PyQt5.
 
 # Requirements
--Python
+-Python\n
 -PyQt5
 
 # Usage
