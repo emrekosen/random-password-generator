@@ -2,7 +2,7 @@
 A basic project with PyQt5.
 
 # Requirements
--Python and PyQt5
+-Python 3.6 and PyQt5
 
 # Usage
 Just write "python3 RandomPasswordGenerator.py" command in terminal under file which contains ".py" file.
