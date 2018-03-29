@@ -6,4 +6,4 @@ A basic project with PyQt5.
 -PyQt5
 
 # Usage
-Just write python3 RandomPasswordGenerator.py in terminal under file which contains ".py" file.
+Just write "python3 RandomPasswordGenerator.py" command in terminal under file which contains ".py" file.
