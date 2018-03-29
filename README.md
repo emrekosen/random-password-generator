@@ -1,3 +1,9 @@
 # Random-Password-Generator
-Little Project with PyQt5
--Need PyQt5 to use it.
+A basic project with PyQt5.
+
+Requirements;
+-Python
+-PyQt5
+
+Usage;
+Just write python3 RandomPasswordGenerator.py in terminal under file which contains ".py" file.
