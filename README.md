@@ -1,9 +1,9 @@
 # Random-Password-Generator
-A basic project with PyQt5.
+A basic random password generator with PyQt5.
 
 # Requirements
-  -Python 3.6
-  -PyQt5
+  - Python 3.6
+  - PyQt5
 
 # Usage
 ``` bash
